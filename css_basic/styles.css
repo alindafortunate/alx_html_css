@@ -1,0 +1,21 @@
+.box-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+
+}
+
+.main-box>article {
+    flex: 3;
+    overflow-y: auto;
+}
+
+.main-box aside {
+    flex: 1;
+    overflow-y: auto;
+}
